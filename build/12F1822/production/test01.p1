@@ -1,6 +1,6 @@
 Version 3.2 HI-TECH Software Intermediate Code
 [p mainexit ]
-"1607 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic12f1822.h
+"1607 /Applications/microchip/xc8/v1.41/include/pic12f1822.h
 [v _OSCCON `Vuc ~T0 @X0 0 e@153 ]
 "412
 [v _PORTA `Vuc ~T0 @X0 0 e@12 ]
@@ -26,7 +26,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _LCD_posyx `(v ~T0 @X0 0 ef2`uc`uc ]
 "39
 [v _LCD_ROMstr `(v ~T0 @X0 0 ef1`*Cuc ]
-"3618 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic12f1822.h
+"3618 /Applications/microchip/xc8/v1.41/include/pic12f1822.h
 [s S199 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S199 . SEN RSEN PEN RCEN ACKEN ACKDT ACKSTAT GCEN ]
 "3617
@@ -36,7 +36,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _SSP1CON2bits `VS198 ~T0 @X0 0 e@534 ]
 "31 test01.c
 [v _i2cTxData `(v ~T0 @X0 0 ef1`uc ]
-"707 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic12f1822.h
+"707 /Applications/microchip/xc8/v1.41/include/pic12f1822.h
 [s S40 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S40 . TMR1IF TMR2IF CCP1IF SSP1IF TXIF RCIF ADIF TMR1GIF ]
 "706
@@ -47,14 +47,14 @@ Version 3.2 HI-TECH Software Intermediate Code
 "3172
 [v _SSP1BUF `Vuc ~T0 @X0 0 e@529 ]
 [v F2176 `(v ~T0 @X0 1 tf1`ul ]
-"152 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic.h
+"152 /Applications/microchip/xc8/v1.41/include/pic.h
 [v __delay `JF2176 ~T0 @X0 0 e ]
 [p i __delay ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
 [; ;pic12f1822.h: 49: extern volatile unsigned char INDF0 @ 0x000;
-"51 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic12f1822.h
+"51 /Applications/microchip/xc8/v1.41/include/pic12f1822.h
 [; ;pic12f1822.h: 51: asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
 [; ;pic12f1822.h: 54: typedef union {

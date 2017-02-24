@@ -1,0 +1,149 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1822 ]
+[d frameptr 6 ]
+"62 /Applications/microchip/xc8/v1.41/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v1.41/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /Applications/microchip/xc8/v1.41/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"42 /Users/mizuko/MPLABXProjects/12F1822-LCD/test01.c
+[v _main main `(v  1 e 1 0 ]
+"67
+[v _i2cByteWrite i2cByteWrite `(v  1 e 1 0 ]
+"77
+[v _i2cTxData i2cTxData `(v  1 e 1 0 ]
+"86
+[v _LCD_dat LCD_dat `(v  1 e 1 0 ]
+"91
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+"103
+[v _LCD_posyx LCD_posyx `(v  1 e 1 0 ]
+"112
+[v _LCD_int LCD_int `(v  1 e 1 0 ]
+"128
+[v _LCD_str LCD_str `(v  1 e 1 0 ]
+"133
+[v _LCD_ROMstr LCD_ROMstr `(v  1 e 1 0 ]
+"412 /Applications/microchip/xc8/v1.41/include/pic12f1822.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+[s S74 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"718
+[u S83 . 1 `S74 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES83  1 e 1 @17 ]
+"1211
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1607
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2576
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3115
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3172
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3209
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"3283
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"3404
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S48 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"3629
+[u S57 . 1 `S48 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES57  1 e 1 @534 ]
+"5730
+[v _nWPUEN nWPUEN `VEb  1 e 0 @1199 ]
+"42 /Users/mizuko/MPLABXProjects/12F1822-LCD/test01.c
+[v _main main `(v  1 e 1 0 ]
+{
+"43
+[v main@msgStart msgStart `[9]uc  1 a 9 0 ]
+"42
+[v main@F2209 F2209 `[9]uc  1 s 9 F2209 ]
+"61
+} 0
+"128
+[v _LCD_str LCD_str `(v  1 e 1 0 ]
+{
+[v LCD_str@str str `*.4uc  1 a 1 wreg ]
+[v LCD_str@str str `*.4uc  1 a 1 wreg ]
+[v LCD_str@str str `*.4uc  1 a 1 8 ]
+"131
+} 0
+"103
+[v _LCD_posyx LCD_posyx `(v  1 e 1 0 ]
+{
+[v LCD_posyx@ypos ypos `uc  1 a 1 wreg ]
+"104
+[v LCD_posyx@pcode pcode `uc  1 a 1 10 ]
+"103
+[v LCD_posyx@ypos ypos `uc  1 a 1 wreg ]
+[v LCD_posyx@xpos xpos `uc  1 p 1 6 ]
+[v LCD_posyx@ypos ypos `uc  1 a 1 9 ]
+"110
+} 0
+"112
+[v _LCD_int LCD_int `(v  1 e 1 0 ]
+{
+"126
+} 0
+"91
+[v _LCD_cmd LCD_cmd `(v  1 e 1 0 ]
+{
+[v LCD_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_cmd@cmd cmd `uc  1 a 1 5 ]
+"97
+} 0
+"133
+[v _LCD_ROMstr LCD_ROMstr `(v  1 e 1 0 ]
+{
+[v LCD_ROMstr@str str `*.25DCCuc  1 p 2 7 ]
+"136
+} 0
+"86
+[v _LCD_dat LCD_dat `(v  1 e 1 0 ]
+{
+[v LCD_dat@chr chr `uc  1 a 1 wreg ]
+[v LCD_dat@chr chr `uc  1 a 1 wreg ]
+[v LCD_dat@chr chr `uc  1 a 1 6 ]
+"89
+} 0
+"67
+[v _i2cByteWrite i2cByteWrite `(v  1 e 1 0 ]
+{
+[v i2cByteWrite@addr addr `uc  1 a 1 wreg ]
+[v i2cByteWrite@addr addr `uc  1 a 1 wreg ]
+[v i2cByteWrite@cont cont `uc  1 p 1 1 ]
+[v i2cByteWrite@data data `uc  1 p 1 2 ]
+[v i2cByteWrite@addr addr `uc  1 a 1 3 ]
+"75
+} 0
+"77
+[v _i2cTxData i2cTxData `(v  1 e 1 0 ]
+{
+[v i2cTxData@data data `uc  1 a 1 wreg ]
+[v i2cTxData@data data `uc  1 a 1 wreg ]
+[v i2cTxData@data data `uc  1 a 1 0 ]
+"81
+} 0
